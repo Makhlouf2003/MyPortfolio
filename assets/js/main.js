@@ -70,8 +70,6 @@ const sendEmail = (e) => {
     // Clear input fields
     contactForm.reset()
 
-    // Show error message
-    contactMessage.textContent = 'Message not sent ❌'
 }
 
 contactForm.addEventListener('submit', sendEmail)
